@@ -1,8 +1,10 @@
 package Lesson2;
 
+import java.util.List;
+
 public interface QueueBehaviour {
-    void takeQueue(Human human);
+    void takeQueue(Human humans);
     void takeOrders();
     void giveOrders();
-    void releaseFromQueue();
+    void releaseFromQueue(Human humans);
 }

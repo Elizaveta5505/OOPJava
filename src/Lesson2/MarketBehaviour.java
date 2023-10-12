@@ -3,8 +3,8 @@ package Lesson2;
 import java.util.List;
 
 public interface MarketBehaviour {
-    void acceptToMarket(Human human);
-    void releaseFromMarket (List<Human> humans);
+    void acceptToMarket(Human humans);
+    void releaseFromMarket (Human humans);
     void update();
 
 }
