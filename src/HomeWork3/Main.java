@@ -18,8 +18,6 @@ public class Main {
         numberGroup.add(three);
 //      System.out.println(numberGroup);
 
-        one.compareTo(one);
-
 
 //        for (Students student : numberGroup) {
 //            System.out.println("Name: " + student.getName());
@@ -32,6 +30,7 @@ public class Main {
 //        }
         System.out.println(numberGroup);
 //        Collections.sort(numberGroup);
+        numberGroup.sort(new StudentsComporator());
 
         System.out.println(numberGroup);
 //
