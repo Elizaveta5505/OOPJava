@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373d9e0d-3ffd-4513-ade6-cf509543e353" name="Changes" comment="homework3">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork4/ClassOfStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork4/ChemistryTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork4/ClassOfTeachers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/HomeWork4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork4/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWork4/StudentsComporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork4/ShopTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork4/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +58,7 @@
       <recent name="HomeWork3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork3.Main">
+  <component name="RunManager" selected="Application.HomeWork4.Main">
     <configuration name="HomeWork1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork1.Main" />
       <module name="OOPJava" />
@@ -78,6 +78,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork4.Main" />
+      <module name="OOPJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork4.Main" />
         <item itemvalue="Application.HomeWork3.Main" />
         <item itemvalue="Application.Lesson2.Main" />
         <item itemvalue="Application.Main" />
@@ -151,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697481918071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework3">
+      <created>1697633090983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697633090983</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
