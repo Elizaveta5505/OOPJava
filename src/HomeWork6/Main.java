@@ -9,9 +9,5 @@ public class Main {
         for (int index = 0; index < teachers.count(); index++) {
             System.out.println(teachers.get(index));
         }
-
-
-
-
     }
 }

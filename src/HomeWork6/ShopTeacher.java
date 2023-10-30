@@ -1,11 +1,9 @@
 package HomeWork6;
 
 public class ShopTeacher extends Teacher {
-
     protected ShopTeacher(String firstName, String lastName) {
         super(firstName, lastName);
     }
-
     @Override
     public String toString() {
         return "ShopTeacher{" +
@@ -14,3 +12,4 @@ public class ShopTeacher extends Teacher {
                 '}';
     }
 }
+//  Наследуемый класс может заменить родительский

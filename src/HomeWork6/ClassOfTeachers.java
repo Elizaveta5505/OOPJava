@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ClassOfTeachers<T extends Teacher> implements Iterable<Teacher> {
+public class ClassOfTeachers<T extends Teacher>  {
     private String nameGroup;
     private List<T> numberOfTeachers;
     private int index;
@@ -30,41 +30,6 @@ public class ClassOfTeachers<T extends Teacher> implements Iterable<Teacher> {
         return numberOfTeachers.get(index);
     }
 
-    public TeachersIterator TeachersIterator() {
-        return new TeachersIterator(numberOfTeachers);
-    }
-
-    @Override
-    public Iterator<Teacher> iterator() {
-        return new TeachersIterator(numberOfTeachers);
-    }
-
-    private class TeachersIterator implements Iterator<Teacher> {
-        private List<T> numberOfTeachers;
-        private int counter;
-
-        public TeachersIterator(List<T> numberOfTeachers) {
-            this.numberOfTeachers = numberOfTeachers;
-            this.counter = 0;
-        }
-
-        @Override
-        public boolean hasNext() {
-            return index < numberOfTeachers.size() - 1;
-        }
-
-        @Override
-        public T next() {
-            if (hasNext()) {
-                return numberOfTeachers.get(index++);
-            }
-            return null;
-        }
-
-        @Override
-        public void remove() {
-            numberOfTeachers.remove(numberOfTeachers.get(index));
-        }
-    }
-
+//  Перенесла итератор в отдельный класс, оставила в классе только логику, отвечающую за формирование группы учителей
+//  Класс параметаризован
 }
